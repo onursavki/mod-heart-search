@@ -11,9 +11,9 @@ function cloneIcons() {
     const clonedBookmarkIcon = bookmarkIcon1.cloneNode(true);
 
     // Yeni id'leri ayarla
-    clonedSearchIcon.id = 'searchIcon2';
-    clonedHeartIcon.id = 'heartIcon2';
-    clonedBookmarkIcon.id = 'bookmarkIcon2';
+    clonedSearchIcon.id = 'searchIcon1';
+    clonedHeartIcon.id = 'heartIcon1';
+    clonedBookmarkIcon.id = 'bookmarkIcon1';
 
     // Modal içindeki hedef konumları seç
     const modal = document.querySelector('#imageModal');
